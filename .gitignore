@@ -1,0 +1,49 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# 日志文件
+*.log
+日志文件/
+
+# IDE和编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# 依赖和虚拟环境
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 配置文件中的敏感信息（如果有的话）
+# config.ini
+
+# 截图和临时图片（可选，根据需要调整）
+# temp_*.png
+# screenshot_*.png
+
+# Windows 特定文件
+*.exe
+*.msi
+
+# 编译产生的文件
+build/
+dist/
+*.egg-info/ 

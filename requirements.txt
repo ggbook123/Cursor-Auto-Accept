@@ -1,0 +1,25 @@
+# Cursor Auto Accept - Python依赖包配置文件
+# 版本: 1.0.0
+# 适用环境: Windows 11, Python 3.7+
+# 创建时间: 2024
+
+# 图像处理和计算机视觉
+opencv-python>=4.5.0,<5.0.0
+
+# 图形界面自动化
+pyautogui>=0.9.50,<1.0.0
+
+# Windows系统API
+pywin32>=227,<400
+
+# 图像处理库
+Pillow>=8.0.0,<11.0.0
+
+# 数值计算
+numpy>=1.20.0,<2.0.0
+
+# 注意：
+# 1. tkinter是Python标准库，无需安装
+# 2. time, threading, logging, os, sys 是标准库
+# 3. 版本范围确保兼容性和稳定性
+# 4. 程序基于图像模板匹配技术实现按钮识别 
